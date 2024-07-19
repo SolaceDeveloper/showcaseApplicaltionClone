@@ -96,6 +96,10 @@ def reactNativeArchitectures() {
 }
 
 android {
+    project.ext.react = [
+    enableHermes: false,
+      deleteDebugFilesForVariant: { false }
+]
     ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion

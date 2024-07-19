@@ -1,12 +1,12 @@
 {
   "ios": {
     "0.0.1": {
-      "auth": "http://localhost:9003/[name][ext]"
+      "auth": "https://apphosting.onrender.com/auth/[name][ext]"
     }
   },
   "android": {
     "0.0.1": {
-      "auth": "http://localhost:9003/[name][ext]"
+      "auth": "https://apphosting.onrender.com/auth/[name][ext]"
     }
   }
 }

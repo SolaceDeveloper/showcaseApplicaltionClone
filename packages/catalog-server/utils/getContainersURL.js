@@ -1,5 +1,5 @@
 const getContainersURL = ({
-  hostname = 'http://localhost:3000',
+  hostname = 'https://catalogserver.vercel.app',
   appName,
   version,
   platform,
